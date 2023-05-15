@@ -1,0 +1,16 @@
+HOw  TO CONNECT TO MYSQL DATABASE FROM VISUALCODE AND FETCH THE DATA
+
+open project in VS Code 
+than download package ---
+== right-click your project, choose Manage NuGet Packages…, in the Search box enter MySqlConnector, and install the package in your project.
+dotnet add package MySqlConnector --version 2.2.6
+
+and also download other three extensions---
+Install-package Microsoft.Extensions.Configuration;
+Install-package Microsoft.Extensions.Configuration.FileExtensions;
+Install-package Microsoft.Extensions.Configuration.Json;
+Install-package System.Data.SqlClient;     ////////for sql server database connection
+
+for more === now see the code...
+
+
